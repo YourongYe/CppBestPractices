@@ -26,3 +26,14 @@ int main()
     //v[0]=v[4];
     //v[4]=m;
 }
+
+///alternatively use while
+    int start=0;
+    int end=v.size()-1;
+    while (start<end){
+        int m=v[start];
+        v[start]=v[end];
+        v[end]=m;
+        start++;
+        end--;
+    }

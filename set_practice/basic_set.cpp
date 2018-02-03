@@ -11,6 +11,9 @@ int main()
     s.insert(-2);
     s.insert(10);
     s.insert(3);
+    s.insert(3);
+    s.insert(3);
+    s.insert(3);
     
     for(std::set<int>::iterator it=s.begin(); it!=s.end(); ++it){
         std::cout<<*it<<std::endl;

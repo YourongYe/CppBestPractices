@@ -15,6 +15,10 @@ int main()
         std::cout<< v[i]<<std::endl;
     }
     
+    for (int i=0; i!=v.size(); i++){
+        std::cout<< v[i]<<std::endl;
+    }
+    
     for (std::vector<int>::iterator it=v.begin(); it!=v.end(); it++){
         std::cout<<*it<<std::endl;
     }

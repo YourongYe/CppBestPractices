@@ -54,7 +54,7 @@ int main()
     Human b;
     b.setHand(3);
     b.setLeg(0);
-    b.setName("mincong");
+    b.setName("yoyo2");
     b.eat();
     b.play();
     int result = b.brainCalculate(3);

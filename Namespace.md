@@ -48,3 +48,19 @@ auto start = high_performance_clock::now();
 using std::cout;
 using std::endl;
 ```
+5. Consider importing it in a local scope
+```cpp
+#include <isotream> 
+  
+// Avoid this 
+using namespace std; 
+  
+void foo() 
+{ 
+    // Inside function 
+    // Use the import statement inside limited scope 
+    using namespace std; 
+  
+    // Proceed with function 
+} 
+```

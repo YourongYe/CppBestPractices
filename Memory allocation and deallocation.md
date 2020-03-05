@@ -21,3 +21,12 @@ if (foo == nullptr) {
 }
 ```
 This nothrow method is likely to produce less efficient code than exceptions, since it implies explicitly checking the pointer value returned after each and every allocation.
+
+
+# Memory deallocation 
+The first statement releases the memory of a single element allocated using new,   
+and the second one releases the memory allocated for arrays of elements using new and a size in brackets ([]).
+```cpp
+delete pointer;
+delete[] pointer;
+```

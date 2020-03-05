@@ -44,5 +44,5 @@ free(ptr);
 # Difference Between Delete and Free
 
 1. Delete is an operator while Free is a function.  
-2. Delete frees the allocated memory and also calls the destructor of the class in c++ while free() does not calls any destructor and only free the allocated memory .  
+2. Delete frees the allocated memory and also **calls the destructor of the class** in c++ while free() does not calls any destructor and only free the allocated memory.  
 3. Free() uses C run time heap whereas Delete may be overloaded on class basis to use private heap.  

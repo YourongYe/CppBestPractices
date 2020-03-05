@@ -24,11 +24,21 @@ This nothrow method is likely to produce less efficient code than exceptions, si
 
 
 # Memory deallocation 
-The first statement releases the memory of a single element allocated using new,   
-and the second one releases the memory allocated for arrays of elements using new and a size in brackets ([]).
+## Delete Operator:
+Delete is an Operator in C++ which is used to free the memory allocated by new operator or for a NULL Pointer . It also calls the destructor of the class.
+
 ```cpp
 delete pointer;
 delete[] pointer;
+```
+The first statement releases the memory of a single element allocated using new,   
+and the second one releases the memory allocated for arrays of elements using new and a size in brackets ([]).
+
+
+## Free():
+Free function is use to deallocate memory allocated by malloc function.
+```cpp
+free(ptr);
 ```
 
 # Difference Between Delete and Free

@@ -40,3 +40,9 @@ int main() {
     cout << max<string>("sdf", "wer") << endl;
 }
 ```
+# Result
+```cpp
+8                                                                                                                       
+e                                                                                                                       
+wer   
+```

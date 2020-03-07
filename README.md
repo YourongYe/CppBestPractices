@@ -1,5 +1,5 @@
 # CppBestPractices
 
-Template
-Memory allocation and deallocation
-Namespace
+Template  
+Memory allocation and deallocation  
+Namespace  

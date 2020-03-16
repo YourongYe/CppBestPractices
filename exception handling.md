@@ -27,7 +27,7 @@ int compare( int a, int b ) {
 }
 ```
     
-The Standard Library comes with a nice collection of built-in exception objects you can throw. Keep in mind that you should always throw by value and catch by reference:
+The Standard Library comes with a nice collection of built-in exception objects you can throw. ***Keep in mind that you should always throw by value and catch by reference:***
 ```cpp
 try {
     compare( -1, 3 );

@@ -31,5 +31,5 @@ You can use a const_cast in order to temporarily strip away the const-ness of th
 
 ```cpp
 const char *x = "abc";
-func( const_cast<char *>(x) );
+func( const_cast<char *>(x) ); // pass it as a normal parameter
 ```

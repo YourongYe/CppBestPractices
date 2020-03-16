@@ -14,3 +14,6 @@ int main() {
     // p2 = new int(88); //error: assignment of read-only variable ‘p2’
 }
 ```
+
+C++ const 关键字小结
+https://www.runoob.com/w3cnote/cpp-const-keyword.html

@@ -17,3 +17,10 @@ int main() {
 
 C++ const 关键字小结
 https://www.runoob.com/w3cnote/cpp-const-keyword.html
+
+# Const & parameter vs pure reference parameter
+***Why we use a const when passing a reference to a func?***   
+- The difference is more prominent when you are passing a big struct/class.   
+- The important difference is that when passing by const reference, no new object is created.   
+- When you use use 'normal' parameter, you pass the parameter by value and hence creating a copy of the parameter you pass. if you are using const reference, you pass it by reference and the original data is not copied.   
+- In both cases, the original data cannot be modified from inside the function.  

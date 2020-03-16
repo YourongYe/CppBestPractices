@@ -18,9 +18,8 @@ catch error
 ```
 
 Simple:
-
-#include <stdexcept>
 ```cpp
+#include <stdexcept>
 int compare( int a, int b ) {
     if ( a < 0 || b < 0 ) {
         throw std::invalid_argument( "received negative value" );
